@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart' hide Path;
 
-import '/widgets/loading_area_layer/map_layer.dart';
+import '../map_layer.dart';
 import '/widgets/animated_path.dart';
 
 
