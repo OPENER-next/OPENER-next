@@ -144,10 +144,7 @@ class HomeScreen extends View<HomeViewModel> with PromptHandler {
                       viewModel.uploadQueue.length;
                       return OsmElementLayer(
                         elements: viewModel.elements,
-                        currentZoom: viewModel.mapZoomRound,
-                        onOsmElementTap: viewModel.onElementTap,
-                        selectedElement: viewModel.selectedElement,
-                        uploadQueue: viewModel.uploadQueue,
+                       // onSelect: viewModel.onElementTap,
                       );
                     },
                   ),

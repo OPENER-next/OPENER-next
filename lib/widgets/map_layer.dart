@@ -1,7 +1,9 @@
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
@@ -197,6 +199,8 @@ class RenderMapLayer extends RenderBox
       mapCamera.nonRotatedSize.y,
     );
 
+    final occupancyList = <Rect>[];
+
     var child = firstChild;
     while (child != null) {
       final childParentData = child.parentData! as _MapLayerParentData;
@@ -205,8 +209,39 @@ class RenderMapLayer extends RenderBox
       // only render child if bounds are inside the viewport
       if (viewport.overlaps(childRect)) {
         context.paintChild(child, relativePixelPosition + offset);
+
+        if (childParentData.collider != null) {
+          final pos = _computeRelativeOffset(childParentData.offset & childParentData.collider!, childParentData.align!);
+
+          _handleCollision(pos, childParentData.collider!, occupancyList);
+        }
       }
       child = childParentData.nextSibling;
+    }
+  }
+
+  Offset _computeRelativeOffset(Rect rect, Alignment align) {
+    var globalPixelPosition = rect.topLeft;
+    // apply rotation
+    if (mapCamera.rotation != 0.0) {
+      globalPixelPosition = mapCamera.rotatePoint(
+        _pixelMapCenter,
+        globalPixelPosition.toPoint(),
+        counterRotation: false,
+      ).toOffset();
+    }
+    // apply alignment
+    return globalPixelPosition - align.alongSize(rect.size) - _nonRotatedPixelOrigin;
+  }
+
+  void _handleCollision(Offset offset, BoxCollider collider, List<Rect> occupancyList) {
+    final rect = offset & collider;
+    if (occupancyList.any((box) => box.overlaps(rect))) {
+      collider.reportCollision(true, postFrame: true);
+    }
+    else {
+      occupancyList.add(rect);
+      collider.reportCollision(false, postFrame: true);
     }
   }
 
@@ -232,11 +267,14 @@ class MapLayerPositioned extends ParentDataWidget<_MapLayerParentData> {
 
   final Alignment align;
 
+  final BoxCollider? collider;
+
   const MapLayerPositioned({
     required this.position,
     required super.child,
     this.align = Alignment.center,
     this.size,
+    this.collider,
     super.key,
   });
 
@@ -263,6 +301,11 @@ class MapLayerPositioned extends ParentDataWidget<_MapLayerParentData> {
       parentData.align = align;
       targetParent.markNeedsPaint();
     }
+
+    if (parentData.collider != collider) {
+      parentData.collider = collider;
+      targetParent.markNeedsPaint();
+    }
   }
 
   @override
@@ -283,4 +326,41 @@ class _MapLayerParentData extends ContainerBoxParentData<RenderBox> {
   Size? size;
 
   Alignment? align;
+
+  BoxCollider? collider;
+}
+
+
+
+
+
+
+
+
+
+
+
+class BoxCollider extends Size with ChangeNotifier implements ValueListenable<bool> {
+  bool _collision = false;
+
+  BoxCollider(super.width, super.height);
+
+  // ignore: avoid_positional_boolean_parameters
+  void reportCollision(bool collision, { bool postFrame = false }) {
+    if (collision != _collision) {
+      _collision = collision;
+
+      if (postFrame) {
+        SchedulerBinding.instance.addPostFrameCallback(
+          (_) => notifyListeners(),
+        );
+      }
+      else {
+        notifyListeners();
+      }
+    }
+  }
+
+  @override
+  bool get value => _collision;
 }
