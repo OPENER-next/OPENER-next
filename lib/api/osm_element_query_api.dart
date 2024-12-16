@@ -8,7 +8,7 @@ class OSMElementQueryAPI {
   final OSMAPI _osmApi;
 
   OSMElementQueryAPI({
-    String endPoint = 'https://www.openstreetmap.org/api/0.6',
+    String endPoint = 'https://api.openstreetmap.org/api/0.6',
   }) :
     _osmApi = OSMAPI(
       baseUrl: endPoint,
