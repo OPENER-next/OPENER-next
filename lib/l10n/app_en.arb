@@ -331,5 +331,7 @@
         "type": "String"
       }
     }
-  }
+  },
+  "deprecationPromptTitle": "Please note:",
+  "deprecationPromptMessage": "This version of OpenStop will no longer receive any updates. A new version of OpenStop will be available soon in the App Store. This is required, because the app ID needed to be changed. The source code and functionality stays the same."
 }

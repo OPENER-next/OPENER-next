@@ -60,11 +60,18 @@ class HomeViewModel extends ViewModel with MakeTickerProvider, PromptMediator, N
   @override
   void init() {
     super.init();
+    final appLocale = AppLocalizations.of(context)!;
     // one time reaction when the first stop areas are available,
     // then try to load its elements
     _reactionDisposers.add(when(
       (p0) => _unloadedStopAreas.isNotEmpty,
       _onDebouncedMapEvent,
+    ));
+
+    promptUserInput(Prompt(
+      title: appLocale.deprecationPromptTitle,
+      message: appLocale.deprecationPromptMessage,
+      choices: { 'Okay': null },
     ));
   }
 

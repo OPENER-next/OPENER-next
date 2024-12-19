@@ -233,5 +233,7 @@
   "mapFeatureCyclewayCrossing": "Radüberweg",
   "@mapFeatureCyclewayCrossing": {},
   "helpImproveTranslationLabel": "Übersetzung verbessern",
-  "@helpImproveTranslationLabel": {}
+  "@helpImproveTranslationLabel": {},
+  "deprecationPromptTitle": "Hinweis:",
+  "deprecationPromptMessage": "Diese Version von OpenStop wird nicht mehr aktualisiert. Eine neue Version von OpenStop wird bald im App Store verfügbar sein. Dies ist erforderlich, da die App-ID geändert werden musste. Der Quellcode und die Funktionalität bleiben gleich."
 }

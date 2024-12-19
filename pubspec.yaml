@@ -7,7 +7,7 @@ publish_to: 'none'
 # Remember:
 # Create a new git tag (like so: v0.4.2) to trigger F-Droid and GitHub build scripts
 # Create changelog file for F-Droid release
-version: 0.8.2+21
+version: 0.8.3+22
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
