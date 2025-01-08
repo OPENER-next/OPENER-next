@@ -4,27 +4,27 @@ Wir freuen uns, dass Sie unsere App verwenden. Datenschutz und Datensicherheit h
 Aus Gründen der besseren Lesbarkeit wird im Folgenden in der Regel das generische Maskulinum verwendet. Sämtliche Personenbezeichnungen gelten selbstverständlich für alle Geschlechter.
 
 ## I. Name und Kontaktdaten des Verantwortlichen
-Der Verantwortliche im Sinne der EU-Datenschutzgrundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten der Europäischen Union sowie sonstiger datenschutzrechtlicher Bestimmungen ist die:
+Der Verantwortliche im Sinne der EU-Datenschutzgrundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten der Europäischen Union sowie sonstiger datenschutzrechtlicher Bestimmungen ist:
 
-Technische Universität Chemnitz \
-vertreten durch den Rektor: Prof. Dr. Gerd Strohmeier \
-Straße der Nationen 62 \
-09111 Chemnitz, Deutschland \
-E-Mail: rektor@tu-chemnitz.de \
-Telefon: +49 371 531-10000 \
-Telefax: +49 371 531-10009 \
-Web: https://www.tu-chemnitz.de
+Steinbeis-Forschungszentrum Systementwurf und Test \
+vertreten durch: Prof. Dr. Ulrich Heinkel \
+Annaberger Straße 73 \
+09111 Chemnitz \
+Deutschland \
+E-Mail: SU1734@stw.de \
+Telefon: +49 371 240805 60 \
+Web: https://www.steinbeis.de/su/1734
 
 ## II. Kontaktdaten des Datenschutzbeauftragten
-Der Datenschutzbeauftragte der Technischen Universität Chemnitz ist:
+Das Steinbeis-Forschungszentrum Systementwurf und Test ist ein Unternehmen im Steinbeis-Verbund und wird juristisch und damit auch datenschutzrechtlich durch die Steinbeis GmbH & Co. KG für Technologietransfer vertreten. Die Kontaktdaten des zuständigen Datenschutzbeauftragten sind:
 
-Gernot Kirchner \
-Straße der Nationen 62 \
-09111 Chemnitz \
-E-Mail: datenschutzbeauftragter@tu-chemnitz.de \
-Telefon: +49 371 531-12030 \
-Telefax: +49 371 531-12039 \
-Web: https://www.tu-chemnitz.de/rektorat/dsb
+Datenschutzbeauftragter  \
+Steinbeis GmbH & Co. KG für Technologietransfer \
+Adornostraße 8 \
+70599 Stuttgart \
+Deutschland \
+E-Mail: Datenschutz@steinbeis.de \
+Telefon: +49 711 1839-5
 
 ## III. Technische Umsetzung der App
 Die technische Umsetzung der App erfolgt quell-offen auf GitHub und ist über den folgenden Link zu erreichen: https://github.com/OPENER-next/OpenStop. Die Betreuung und Entwicklung findet maßgeblich durch Mitwirkende im Forschungsprojekt OPENER next statt. Alle derzeitigen oder ehemaligen Mitwirkenden finden Sie hier: https://github.com/OPENER-next/OpenStop/graphs/contributors.
@@ -92,11 +92,10 @@ Das Löschen der zu OpenStreetMap hochgeladen Daten (siehe Nutzungsdaten) liegt 
 Sämtliche durch die Nutzung von Dritt-Servern anfallenden Zugriffsdaten werden von uns nicht gespeichert. Auskunft über die Speicherung der Zugriffsdaten von erwähnten Dritt-Servern entnehmen Sie bitte der Datenschutzerklärung des jeweiligen Anbieters (siehe Zugriffsdaten).
 
 ## X. Welche Rechte haben Sie zusätzlich?
-Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie betroffene Person im Sinne der DSGVO, so dass Ihnen die nachfolgenden Rechte gegenüber der Technischen Universität Chemnitz (Verantwortlichen) zustehen. Zur Geltendmachung Ihrer Rechte gegenüber der Technischen Universität Chemnitz oder bei weiteren Rückfragen zum Datenschutz können Sie sich jederzeit an unseren Datenschutzbeauftragten wenden.
+Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie betroffene Person im Sinne der DSGVO, so dass Ihnen die nachfolgenden Rechte gegenüber dem Steinbeis-Forschungszentrum Systementwurf und Test (Verantwortlichen) zustehen. Zur Geltendmachung Ihrer Rechte gegenüber dem Steinbeis-Forschungszentrum Systemenwurf und Test oder bei weiteren Rückfragen zum Datenschutz können Sie sich jederzeit an unseren Datenschutzbeauftragten wenden.
 
-Alle Mitteilungen und Maßnahmen gemäß den Art. 15 bis 22 (u.a. Auskunfts-, Berichtigungs-, Löschungs-, Verarbeitungseinschränkungs-, Mitteilungs-, Datenübertragbarkeits-, Widerspruchsrecht) und Art. 34 DSGVO (Benachrichtigungsrecht bei Datenschutzverletzungen) werden unentgeltlich zur Verfügung gestellt. Bei offenkundig unbegründeten oder – insbesondere im Fall von häufiger Wiederholung – exzessiven Anträgen einer betroffenen Person kann der Verantwortliche jedoch entweder ein angemessenes Entgelt verlangen, bei dem die Verwaltungskosten für die Unterrichtung oder die Mitteilung oder die Durchführung der beantragten Maßnahme berücksichtigt werden, oder sich weigern, aufgrund des Antrags tätig zu werden. Für diese Fälle hat allerdings die Technische Universität Chemnitz den Nachweis für den offenkundig unbegründeten oder exzessiven Charakter des Antrags zu erbringen.
+Alle Mitteilungen und Maßnahmen gemäß den Art. 15 bis 22 (u.a. Auskunfts-, Berichtigungs-, Löschungs-, Verarbeitungseinschränkungs-, Mitteilungs-, Datenübertragbarkeits-, Widerspruchsrecht) und Art. 34 DSGVO (Benachrichtigungsrecht bei Datenschutzverletzungen) werden unentgeltlich zur Verfügung gestellt. Bei offenkundig unbegründeten oder – insbesondere im Fall von häufiger Wiederholung – exzessiven Anträgen einer betroffenen Person kann der Verantwortliche jedoch entweder ein angemessenes Entgelt verlangen, bei dem die Verwaltungskosten für die Unterrichtung oder die Mitteilung oder die Durchführung der beantragten Maßnahme berücksichtigt werden, oder sich weigern, aufgrund des Antrags tätig zu werden. Für diese Fälle hat allerdings das Steinbeis-Forschungszentrum Systemenwurf und Test Nachweis für den offenkundig unbegründeten oder exzessiven Charakter des Antrags zu erbringen.
 
-Ergänzend wird darauf hingewiesen, dass Beschränkungen der Rechte der betroffenen Person gemäß §§ 7–10 SächsDSDG existieren. Davon betroffen sind u.a. das Löschungs- und Auskunftsrecht sowie die Informationspflichten gegenüber den betroffenen Personen.
 
 ### Auskunftsrecht
 
@@ -111,7 +110,7 @@ Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob pe
 * wenn die personenbezogenen Daten nicht bei Ihnen, das heißt der betroffenen Person erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten;
 * das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 und 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.
 
-Die Technische Universität Chemnitz als Verantwortliche verarbeitet jedoch naturgemäß eine große Menge von Informationen über betroffene Personen, so dass von Ihnen verlangt wird, dass Sie als betroffene Person im Rahmen der Geltendmachung Ihres Auskunftsrechts präzisieren, auf welche Informationen oder welche Verarbeitungsvorgänge sich Ihr Auskunftsersuchen bezieht, bevor Ihnen Auskunft erteilt wird, vgl. S. 7 des 63. Erwägungsgrundes der DSGVO.
+Das Steinbeis-Forschungszentrum Systemenwurf und Test erwartet, dass Sie als betroffene Person im Rahmen der Geltendmachung Ihres Auskunftsrechts präzisieren, auf welche Informationen oder welche Verarbeitungsvorgänge sich Ihr Auskunftsersuchen bezieht, bevor Ihnen Auskunft erteilt wird, vgl. S. 7 des 63. Erwägungsgrundes der DSGVO.
 
 Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt, so haben Sie als betroffene Person zudem das Recht, über die geeigneten Garantien gemäß Art. 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.
 
@@ -200,21 +199,20 @@ Hinsichtlich der zuvor in Pkt. 1 und Pkt. 3 genannten Fälle trifft der Verantwo
 
 Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen datenschutzrechtliche Bestimmungen verstößt.
 
-Zuständige Aufsichtsbehörde im Freistaat Sachsen ist gem. Art. 51 DSGVO i.V.m. §§ 14 ff. SächsDSDG:
+Zuständige Aufsichtsbehörde:
 
-Sächsische Datenschutzbeauftragte \
-Dr. Juliane Hundert \
-Devrientstraße 5 \
-01067 Dresden \
-E-Mail: post@sdtb.sachsen.de \
-Telefon: +49 351 85471-101 \
-Telefax: +49 351 85471-109 \
-Web: https://www.datenschutz.sachsen.de
+Der Landesbeauftragte für Datenschutz und Informationsfreiheit Baden-Württemberg \
+Lautenschlagerstraße 20 \
+70173 Stuttgart \
+Deutschland \
+E-Mail: Interne_Meldestelle@lfdi.bwl.de \
+Telefon: +49 711 615541-0
+
 
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
 
 ## XI. Was geschieht, wenn diese Datenschutzerklärung geändert wird?
 
-Diese Datenschutzerklärung ist aktuell gültig und hat den Stand März 2022.
+Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Dezember 2024.
 
 Durch die Weiterentwicklung dieser Anwendung oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern/zu aktualisieren. Eine gesonderte Zustimmung/Einwilligung Ihrerseits ist hierfür gesetzlich grundsätzlich nicht vorgesehen.
